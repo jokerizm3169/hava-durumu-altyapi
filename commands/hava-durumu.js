@@ -7,7 +7,7 @@ const cheerio = require('cheerio');
 async function getWeatherData(city) {
     try {
         // OpenWeatherMap API key'inizi buraya girin
-        const apiKey = '14d1949d313157d79478e28311c66a4d'; // Kendi API key'inizi buraya yazın
+        const apiKey = 'buraya-kendi-apinizi-giriniz'; // Kendi API key'inizi buraya yazın
         
         // Mevcut hava durumu
         const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric&lang=tr`;
